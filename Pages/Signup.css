@@ -1,0 +1,133 @@
+{ box-sizing: border-box; }
+
+body{
+	background-color: #FDDA39;
+}
+
+header {
+  display: block;
+  font-size: 40px;
+}
+
+form{
+	max-width: 500px;
+	margin: 10px auto;
+	padding: 10px,20px;
+	background: #FDDA39;
+	border-radius: 8px;
+	border-style: solid;
+}
+h1{
+	margin: 0 0 30px 0;
+	text-align: center;
+	font-size: 70px;
+}
+h3{
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+input[type="firstname"],
+input[type="lastname"],
+input[type="Age"],
+input[type="email"],
+input[type="p_assword"],
+input[type="Confirm password"],
+select{
+	border-style: solid;
+	border-color: black;
+	font-size: 16px;
+	border-radius: 8px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 12px;
+	width:80%;
+	background: rgb(255,240,169);
+	color: black;
+	box-shadow: 0 0px 0 rgb(255,240,169,0.3) inset;
+	margin-bottom: 20px;
+}
+
+input[type="checkbox"]
+{
+	margin-top: 10px;
+	padding-left:  5px;
+}
+
+
+fieldset{
+	margin-bottom: 30px;
+	border:none; 
+}
+legend{
+	display: block;
+	margin-bottom: 8px;
+}
+label.light{
+	font-weight: 300;
+	display: inline;
+}
+.section{
+	background: -color: #5fcf80;
+	color: rgb(255,240,169);
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 100%;
+}
+button[type="submit"]{
+	color: rgb(255,240,169);
+	background-color: black;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 40%;
+	height: 50px;
+	border-width:1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+button[type="submit1"]{
+	color: rgb(255,240,169);
+	background-color: grey;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 40%;
+	height: 50px;
+	border-width:1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+	margin-bottom: 10px;
+	margin-left: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+

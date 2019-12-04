@@ -1,0 +1,72 @@
+body{
+  background-color: #FDDA39;
+}
+
+header {
+  display: block;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+li a[href="#Shopping Cart"]{
+  color: grey; 
+}
+
+li a:hover {
+  background-color: white;
+}
+pre[class="sef1"]{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-left: 20px;
+}
+hr[class="sera1"]{
+  border-color: black;
+  border-radius: 1px;
+}
+hr[class="sera2"]{
+  border-color: black;
+  border-width: thin;
+  width: 50%;
+  margin-right: 50%;
+}
+hr[class="sera3"]{
+  border-color: black;
+  border-width: thin;
+  width: 20%;
+  margin-left: 70%;
+}
+p[class="sef2"]{
+  font-size: 22px;
+  margin-top: 20px;
+  border-style: solid;
+  width: 15%;
+}
+p[class="price"]{
+  font-size: 22px;
+  margin-top: 20px;
+  border-style: solid;
+  width: 15%;
+}
+pre[class="pana"]{
+  font-size: 22px;
+}
+pre[class="desc1"]{
+  font-size: 16px;
+}

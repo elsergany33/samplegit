@@ -1,0 +1,99 @@
+h1{
+ color: black;
+  text-align: left;
+  font-size: 45px;
+  margin: 5%;
+  font-family: sans-serif;
+}
+
+header {
+  display: block;
+  font-size: 40px;
+}
+body{
+	background-color: #FDDA39;
+}
+label[class="email"]{
+	font-size: 30px;
+	margin-left: 80px;
+}
+
+label[class="pass"]{
+	font-size: 30px;
+	margin-left: 80px;
+}
+
+input[type = "Email"]
+{
+	border-style: solid;
+	border-color: black;
+	font-size: 16px;
+	border-radius: 8px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 12px;
+	width:30%;
+	background: rgb(255,240,169);
+	color: black;
+	margin-left: 30px;
+}
+input[type = "Password"]{
+border-style: solid;
+	border-color: black;
+	font-size: 16px;
+	border-radius: 8px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 12px;
+	width:30%;
+	background: rgb(255,240,169);
+	color: black;
+	margin-left: 20px;
+}
+
+button[type = "submit"]
+{
+	color: white;
+	background-color: black;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 33%;
+	height: 40px;
+	border-width:1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+	margin-top:  20px;
+	margin-left: 450px;
+}
+a[class="engz"]
+{
+	font-size: 36px;
+	color: black;
+	margin-left: 450px;
+	padding: right;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
